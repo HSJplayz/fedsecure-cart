@@ -1,0 +1,5 @@
+# Privacy layer selection.
+mode: dp+secagg      # dp | secagg | he | dp+secagg | dp+he | none
+dp_epsilon: 8.0
+dp_delta: 1.0e-5
+max_grad_norm: 1.0

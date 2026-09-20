@@ -1,0 +1,9 @@
+# Federated training schedule (Flower local simulation).
+rounds: 10
+num_clients: 5
+fraction_fit: 1.0
+local_epochs: 1
+lr: 0.001
+batch_size: 64
+negatives_per_positive: 4
+iid: true

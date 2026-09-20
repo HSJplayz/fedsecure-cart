@@ -1,0 +1,6 @@
+# Attack probes and evaluation budgets.
+mia_threshold_percentile: 95
+num_shadow_models: 3
+attack_batch_size: 128
+grad_inversion_steps: 300
+grad_inversion_lr: 0.05

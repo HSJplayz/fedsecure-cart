@@ -1,0 +1,7 @@
+# Cart-event dataset: schema notes (payloads are git-ignored in data/raw).
+name: cart
+train_path: data/raw/cart_events.csv
+user_col: user_id
+item_col: item_id
+min_interactions: 3
+val_frac: 0.2

@@ -1,0 +1,3 @@
+# SHAP explainer settings.
+nsamples: 200
+n_explain: 100

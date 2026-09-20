@@ -1,0 +1,11 @@
+# Main Hydra config composition.
+defaults:
+  - dataset: cart
+  - model: neumf
+  - training: fl
+  - privacy: dp
+  - attack: mia
+  - xai: shap
+
+output_dir: ${oc.env:OUTPUT_ROOT,./outputs}
+seed: 0

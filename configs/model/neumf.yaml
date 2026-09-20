@@ -1,0 +1,6 @@
+# NCF model family.
+name: neumf
+type: neumf            # gmf | mlp | neumf
+embedding_dim: 32
+mlp_layers: [64, 32, 16, 8]
+alpha: 0.5

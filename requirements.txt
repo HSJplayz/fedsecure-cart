@@ -1,0 +1,14 @@
+torch>=2.0
+torchvision>=0.15
+flwr>=1.6
+opacus>=1.4
+shap>=0.44
+hydra-core>=1.3
+omegaconf>=2.3
+numpy
+pandas
+scikit-learn
+matplotlib
+
+# optional: homomorphic-encrypted aggregation
+# tenseal>=0.3
